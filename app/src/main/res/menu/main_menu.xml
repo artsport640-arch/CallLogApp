@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_backup_now"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="نسخ احتياطي"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_restore"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="استعادة"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="الإعدادات"
+        app:showAsAction="always" />
+
+</menu>
