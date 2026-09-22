@@ -1,5 +1,4 @@
-package com.example.calllogapp;
-
+package com.example.calllogapp;        
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
